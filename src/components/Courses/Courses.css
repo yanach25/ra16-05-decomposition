@@ -1,0 +1,20 @@
+ul.courses {
+    list-style: none;
+    display: flex;
+}
+
+ul.courses > li {
+    margin-right: 10px;
+}
+
+.courses-list > span {
+    margin-right: 10px;
+}
+
+.courses-title {
+    font-weight: bold;
+}
+
+.courses-diff {
+    color: gray;
+}

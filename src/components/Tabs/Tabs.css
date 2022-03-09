@@ -1,0 +1,23 @@
+ul.tabs {
+    list-style: none;
+    display: flex;
+}
+
+.tab {
+    margin-right: 10px;
+}
+
+.tab > a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.tab > a:hover, .tab a:active, .tab > a.active {
+    color: blue;
+    font-weight: bold;
+}
+
+.news > a {
+    color: black;
+    text-decoration: none;
+}
